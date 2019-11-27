@@ -19,7 +19,7 @@ jim.last_name = "Beam"
 
 some_knowledge = avi.teach 
 
-Teacher.KNOWLEDGE.length.times{|steve| steve.learn(some_knowledge)}
+8.times{|steve| steve.learn(some_knowledge)}
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
